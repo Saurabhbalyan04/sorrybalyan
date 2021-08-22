@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+fieldset{
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+}
+
+legend{
+	font-weight: bold;
+}
+
+label{
+	display: block;
+	cursor: pointer;
+}
+
+input[type="text"]{
+	width: 20em;
+}
+
+textarea{
+	width: 20em;
+	height: 10em;
+}   
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Detalhes de contact</legend>
+            <div>
+                <label for="name">name:</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label for="url">URL</label>
+                <input type="text" name="url" id="url">
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>
+                description:
+            </legend>
+            <div >
+                <label for="messag">message</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Lembrar de mim</legend>
+            <div>
+                <label>
+                    <input type="radio" name="lembrar" id="sim">Sim
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input type="radio" name="lembrar" id="nao">Não
+                </label>
+            </div>
+
+        </fieldset>
+    
+
+
+
+
+    
+    </form>
+    
+</body>
+</html>
